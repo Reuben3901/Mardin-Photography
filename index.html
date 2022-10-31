@@ -69,10 +69,6 @@
       color: hsl(153, 0%, 20%);
       text-decoration: none;
   }
-  html {
-    --lh: 1.6rem;
-    line-height: var(--lh);
-  }
   .card-sizer {
     /*min-height:22rem;*/
     border-radius: 10% 4% 10% 4%;
@@ -84,12 +80,50 @@
   .card-img-top{
     border-radius: 10% 4% 10% 4%;
   }
+
+/* xs < 768 */
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 0.8rem;
+        /*color:yellow;*/
+    }
+}
+
+/* sm */
+@media screen and (min-width: 870px) {
+    body {
+        font-size: .8rem;
+        /*color:green;*/
+    }
+}
+
+
+/* md */
+@media screen and (min-width: 992px) {
+    body {
+        font-size: .9rem;
+        /*color:blue;*/
+    }
+}
+
+
+/* normal */
+@media screen and (min-width: 1200px) {
+    body {
+        font-size: 1rem;
+        /*color:red;*/
+    }
+}
+
+
 </style>
 
       <main>
          <div class="album py-2" style="background-color:hsl(232, 54%, 18%);">
             <div class="container-fluid py-2">
-               <div class="row row-cols-2 row-cols-sm-2 row-cols-md-4 row-cols-lg-6 g-3 ps-2 pe-2">
+
+
+               <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3 ps-2 pe-2">
                   
                   <div class="col">
                      <a class="" href="#">
@@ -188,6 +222,121 @@
                   
                </div>
             </div>
+
+    <!--  SERVICES  -->
+
+
+          <div class="container-fluid py-2" style="color:white;" >
+           <hr>
+              <div class="row">
+                <div class="col">
+                  <h1 class="pb-3 display-5" style="text-shadow: 2px 2px hsl(232, 54%, 50%);">Services</h1>
+                 <!--  <h1 class="pb-3 " style="text-shadow: 2px 2px hsl(232, 54%, 50%);">Services</h1> -->
+                </div> #}
+              </div>
+
+               <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-3 ps-2 pe-2">
+
+
+                  <div class="col-auto">
+                    <div class="row" >
+                      <div class="p-0 col-4">
+                        <div >
+                          <img class="img-fluid rounded" src="assets/icon_4.jpg" alt="Card image" style="width:100%; box-shadow: .5rem .5rem .4rem hsl(181, 4%, 0%);">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4 style="background-color:hsl(232, 54%, 18%); text-shadow: 2px 2px hsl(232, 54%, 50%);">Weddings</h4>
+                        <p style="background-color:hsl(232, 54%, 18%);">Some text about how awesome we are at shooting weddings. We take care of everything so you can focus on enjoying your time. 10 years of experience in the industry. Set up photo booth. And staff enough to capture every important moment to have to look back on 30 years later.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto">
+                    <div class="row" >
+                      <div class="p-0 col-4">
+                        <div >
+                          <img class="img-fluid rounded" src="assets/icon_4.jpg" alt="Card image" style="width:100%; box-shadow: .5rem .5rem .4rem hsl(181, 4%, 0%);">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4 style="background-color:hsl(232, 54%, 18%); text-shadow: 2px 2px hsl(232, 54%, 50%);">Headshots</h4>
+                        <p style="background-color:hsl(232, 54%, 18%);">Some text about how awesome we are at shooting weddings. We take care of everything so you can focus on enjoying your time. 10 years of experience in the industry. Set up photo booth. And staff enough to capture every important moment to have to look back on 30 years later.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto">
+                    <div class="row" >
+                      <div class="p-0 col-4">
+                        <div >
+                          <img class="img-fluid rounded" src="assets/icon_4.jpg" alt="Card image" style="width:100%; box-shadow: .5rem .5rem .4rem hsl(181, 4%, 0%);">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4 style="background-color:hsl(232, 54%, 18%); text-shadow: 2px 2px hsl(232, 54%, 50%);">Glamour</h4>
+                        <p style="background-color:hsl(232, 54%, 18%);">Some text about how awesome we are at shooting weddings. We take care of everything so you can focus on enjoying your time. 10 years of experience in the industry. Set up photo booth. And staff enough to capture every important moment to have to look back on 30 years later.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-auto">
+                    <div class="row" >
+                      <div class="p-0 col-4">
+                        <div >
+                          <img class="img-fluid rounded" src="assets/icon_4.jpg" alt="Card image" style="width:100%; box-shadow: .5rem .5rem .4rem hsl(181, 4%, 0%);">
+                        </div>
+                      </div>
+                      <div class="col-8">
+                        <h4 style="background-color:hsl(232, 54%, 18%); text-shadow: 2px 2px hsl(232, 54%, 50%);">Marketing</h4>
+                        <p style="background-color:hsl(232, 54%, 18%);">Some text about how awesome we are at shooting weddings. We take care of everything so you can focus on enjoying your time. 10 years of experience in the industry. Set up photo booth. And staff enough to capture every important moment to have to look back on 30 years later.</p>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+              <div class="col-auto">
+                 <article class=" row media content-section border-0 pt-0 pb-0 " style="">
+                  <div class="media-body p-0 col-4">
+                    <img class="rounded img-fluid mb-3 p-0"  src="assets/icon_1.jpg" >
+                  </div>
+                  <div class="media-body col-8">
+                    <h5 class="text-break">Weddings</h5>
+                    <p class="article-content text-break">Some text about how awesome we are at shooting weddings. We take care of everything so you can focus on enjoying your time. 10 years of experience in the industry. Set up photo booth. And staff enough to capture every important moment to have to look back on 30 years later.</p>
+                  </div>  <!-- media-body -->   
+                </article>
+              </div>
+              <div class="col-auto">
+                <article class=" row media content-section border-0 pt-0 pb-0 " style="">
+                  <div class="media-body p-0 col-4">
+                    <img class="rounded img-fluid mb-3 p-0"  src="assets/icon_1.jpg" >
+                  </div>
+                  <div class="media-body col-8">
+                    <h5 class="text-break">Marketing</h5>
+                    <p class="article-content text-break">Some text about how awesome we are at shooting weddings. We take care of everything so you can focus on enjoying your time. 10 years of experience in the industry. Set up photo booth. And staff enough to capture every important moment to have to look back on 30 years later.</p>
+                  </div>  <!-- media-body -->   
+                </article>
+              </div>
+              <div class="col-12">
+                <article class=" row media content-section border-0 pt-0 pb-0 " style="">
+                  <div class="media-body p-0 col-4">
+                    <img class="rounded img-fluid mb-3 p-0"  src="assets/icon_1.jpg" >
+                  </div>
+                  <div class="media-body col-8">
+                    <h5 class="text-break">Glamour</h5>
+                    <p class="article-content text-break">Some text about how awesome we are at shooting weddings. We take care of everything so you can focus on enjoying your time. 10 years of experience in the industry. Set up photo booth. And staff enough to capture every important moment to have to look back on 30 years later.</p>
+                  </div>  <!-- media-body -->   
+                </article>
+              </div>
+              
+
+
+              </div>
+
+          </div>
+
+
          </div>
       </main>
       <!-- Option 1: Bootstrap Bundle with Popper -->
