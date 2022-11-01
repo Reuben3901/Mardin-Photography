@@ -29,7 +29,7 @@
                   </div>
                </div>
             </section>
-            <nav class="navbar navbar-expand-lg navbar-light pb-0">
+            <nav class="navbar navbar-expand-lg navbar-light pb-1">
                <div class="container-fluid">
                   <ol class="breadcrumb me-auto mb-0">
                      <li class="breadcrumb-item active" aria-current="page">
@@ -48,9 +48,15 @@
                         <a class="NAV-LINK link-secondary" href="#" style="color:hsl(232, 12%, 94%); text-decoration: none;"> Headshots </a>
                      </li>
                   </ol>
-                  <div class="col-auto align-self-start pe-2 pt-0">
+                  <div class="col-auto align-self-start pe-2 pt-0" style="color:white;">
+                     <i class="bi bi-facebook pe-2"></i>
+                     <i class="bi bi-twitter pe-2"></i>
+                     <i class="bi bi-instagram pe-2"></i>
+                <!-- IF USER IS SIGNED IN
                      <a class="pe-2" href="{{ url_for('post_new') }}" style="color:hsl(112, 89%, 39%);text-decoration:none;">Create Page</a>
+
                      <a class="pe-2" href="{{ url_for('logout') }}" style="color:hsl(180, 100%, 39%);text-decoration:none;">Logout</a>
+                -->
                   </div>
                </div>
             </nav>
@@ -90,7 +96,7 @@
 }
 
 /* sm */
-@media screen and (min-width: 870px) {
+@media screen and (min-width: 577px) {
     body {
         font-size: .8rem;
         /*color:green;*/
@@ -232,7 +238,7 @@
                 <div class="col">
                   <h1 class="pb-3 display-5" style="text-shadow: 2px 2px hsl(232, 54%, 50%);">Services</h1>
                  <!--  <h1 class="pb-3 " style="text-shadow: 2px 2px hsl(232, 54%, 50%);">Services</h1> -->
-                </div> #}
+                </div> 
               </div>
 
                <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-2 g-3 ps-2 pe-2">
